@@ -1,12 +1,25 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <NavigationBar/>
+  <AlertOverlay/>
+  <router-view class="pageBody"/>
 </template>
-
+<script>
+import AlertOverlay from './components/alert/AlertOverlay.vue'
+import NavigationBar from './components/navbar/NavigationBar.vue'
+  export default {
+    name: "App",
+    components: {
+      NavigationBar,
+      AlertOverlay
+    },
+    data() {
+    },
+    methods: {
+    }
+  }
+</script>
 <style>
+@import '@/assets/css/style.css';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,7 +27,9 @@
   text-align: center;
   color: #2c3e50;
 }
-
+.pageBody {
+  margin-top: 4rem;
+}
 nav {
   padding: 30px;
 }

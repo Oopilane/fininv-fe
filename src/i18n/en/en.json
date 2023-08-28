@@ -1,0 +1,61 @@
+{
+    "generic-terms": {
+        "email": "Email",
+        "handle": "Handle",
+        "username": "Email",
+        "password": "Password",
+        "login": "Login",
+        "logout": "Logout",
+        "loading": "Loading...",
+        "does-not-exist": "This does not exist",
+        "close": "Close",
+        "submit": "Submit"
+    },
+    "generic-messages": {
+        "logged-out": "You have been logged out",
+        "registration-success": "Registration successful",
+        "update-user-success": "User updated",
+        "trade-successful": "Trade successful",
+        "nothing": "Nothing to see here"
+    },
+    "error" : {
+        "generic-messages": {
+            "failed-to-login": "Incorrect username or password!",
+            "no-email": "Email cannot be empty!",
+            "no-username": "Username cannot be empty!",
+            "no-password": "Password cannot be empty!",
+            "no-quantity": "Quantity cannot be empty!",
+            "no-symbol": "Symbol cannot be empty!",
+            "confirm-password-no-match": "Passwords do not match!",
+            "terms-not-accepted": "You must accept terms!",
+            "registration-failed": "Sorry registration has failed, try again later",
+            "failed-to-fetch": "Failed to fetch",
+            "failed-to-trade": "Failed to trade"
+        }
+    },
+    "dashboard": {
+        "name": "Name",
+        "symbol": "Symbol",
+        "value": "Value",
+        "price": "Price",
+        "purchase-price": "Purchase Price",
+        "sell-price": "Current Price",
+        "buyer": "Buyer",
+        "seller": "Seller",
+        "buyer-seller": "Buyer/Seller",
+        "type": "Type",
+        "amount": "Amount",
+        "quantity": "Quantity",
+        "created": "Created",
+        "buy": "Buy",
+        "sell": "Sell",
+        "bought": "Bought",
+        "sold": "Sold",
+        "balance": "Balance",
+        "portfolio": "Portfolio",
+        "profit-loss": "Profit/Loss",
+        "select-symbol": "Select stock",
+        "profit": "Profitable Users",
+        "total-profit": "Total profit"
+    }
+}
